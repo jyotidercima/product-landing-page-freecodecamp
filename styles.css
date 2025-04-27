@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(255, 235, 205, 0.178);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+h1 {
+    font-size: medium;
+    display: inline;
+    position: absolute;
+    padding: 20px 0;
+}
+
+#logo {
+    height: auto;
+    width: 80px;
+    display: inline;
+    margin: 0 0 0 2em;
+}
+
+#header {
+    width: inherit;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#nav-bar {
+    padding: 10px 10px;
+    justify-content: end;
+}
+
+label {
+    font-size: larger;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#nav-bar>ul>li {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin:auto;
+
+}
+
+#form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#form>label {
+    display: block;
+    font-size: large;
+    padding: 10% 0 0 0;
+
+}
+
+#email {
+    display: block;
+    margin: 2% auto;
+    padding: 15px 10%;
+    font-size: medium;
+    text-align: center;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+}
+
+#submit {
+    padding: 10px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: brown;
+    color: whitesmoke;
+}
+
+#box {
+    padding: 2em;
+    font-size: large;
+}
+
+#box>h2 {
+    padding: 2em;
+}
+
+.about {
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.icon {
+    padding: 10px;
+}
+
+#buy {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    height: auto;
+    padding: 2em;
+    gap: 100px;
+
+}
+
+#buy>div {
+    margin: auto;
+    border: 2px solid gray;
+    background-color: antiquewhite;
+
+}
+
+#buy>div>header {
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    background-color: beige;
+
+}
+
+#buy p {
+    padding: 30px;
+    margin: 10px;
+}
+
+#buy>div>main>a {
+    padding: 20px;
+    font-size: medium;
+    margin: 20px 0 20px 0;
+}
+
+a>input {
+    width: 60%;
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+}
+
+#footer {
+    background-color: rgba(222, 184, 135, 0.636);
+bottom: 0;
+}
+
+#footer-nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    
+
+}
+
+#footer>p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+    #header>div>h1 {
+        display: block;
+    }
+
+    #header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    #nav-bar>ul>li {
+        display: block;
+    }
+    #buy {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 200px;
+        height: auto;
+        padding: 2em;
+        margin: auto;
+    
+    }
+}
