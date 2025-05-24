@@ -16,7 +16,7 @@ h1 {
     padding: 20px 0;
 }
 
-#logo {
+#header-img {
     height: auto;
     width: 80px;
     display: inline;
@@ -53,7 +53,7 @@ a {
 
 #nav-bar>ul>li {
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
 }
 
 
@@ -143,7 +143,7 @@ main {
     font-size: large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 10px;
-    background-color: beige;
+    background-color: rgb(254, 202, 80);
 
 }
 
@@ -169,7 +169,7 @@ a>input {
 }
 
 #footer {
-    background-color: rgba(222, 184, 135, 0.636);
+    background-color:bisque;
     bottom: 0;
 }
 
@@ -194,14 +194,20 @@ a>input {
 
     #header {
         display: flex;
-        justify-content: space-between;
         width: 100%;
-        padding: 20px;
+        padding: 5px 5px;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        background-color: bisque;
 
     }
 
     #nav-bar>ul>li {
         display: block;
+    }
+    main{
+        margin: 120px auto;
     }
 
     #buy {
